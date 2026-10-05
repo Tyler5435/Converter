@@ -92,26 +92,33 @@ Partial Class frmConversions
         '
         'btnConvert
         '
+        Me.btnConvert.BackColor = System.Drawing.Color.LawnGreen
+        Me.btnConvert.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnConvert.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange
+        Me.btnConvert.FlatAppearance.BorderSize = 2
+        Me.btnConvert.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnConvert.Location = New System.Drawing.Point(45, 246)
         Me.btnConvert.Name = "btnConvert"
         Me.btnConvert.Size = New System.Drawing.Size(105, 23)
         Me.btnConvert.TabIndex = 3
         Me.btnConvert.Text = "Convert"
-        Me.btnConvert.UseVisualStyleBackColor = True
+        Me.btnConvert.UseVisualStyleBackColor = False
         '
         'btnClear
         '
+        Me.btnClear.BackColor = System.Drawing.Color.Red
         Me.btnClear.Location = New System.Drawing.Point(193, 245)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 4
         Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
+        Me.btnClear.UseVisualStyleBackColor = False
         '
         'frmConversions
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(618, 637)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnConvert)
@@ -123,7 +130,7 @@ Partial Class frmConversions
         Me.Controls.Add(Me.lblConversion)
         Me.Name = "frmConversions"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Conversions"
+        Me.Text = "x"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
